@@ -1,0 +1,39 @@
+{
+  "name": "xxii",
+  "version": "1.0.0",
+  "description": "XXII News",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metarhia/xxii"
+  },
+  "bugs": {
+    "url": "https://github.com/metarhia/xxii/issues"
+  },
+  "homepage": "https://github.com/metarhia/xxii",
+  "main": "server.js",
+  "types": "types/global.d.ts",
+  "scripts": {
+    "test": "npm run lint && npm run types",
+    "types": "tsc",
+    "lint": "eslint . && prettier -c \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.ts\"",
+    "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.ts\"",
+    "db": "metasql c"
+  },
+  "engines": {
+    "node": "14 || 16"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.4",
+    "@types/pg": "^8.6.0",
+    "@types/ws": "^8.2.0",
+    "eslint": "^7.31.0",
+    "prettier": "^2.4.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "impress": "^2.6.6",
+    "metasql": "^2.0.1",
+    "pg": "^8.7.1"
+  }
+}
