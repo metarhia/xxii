@@ -6,17 +6,17 @@ const files = [
   '/metacom.js',
   '/favicon.ico',
   '/favicon.png',
-  '/metarhia.png',
-  '/metarhia.svg',
+  '/xxii.png',
+  '/xxii.svg',
 ];
 
 self.addEventListener('install', async (event) => {
-  const cache = await caches.open('metarhia');
+  const cache = await caches.open('xxii');
   event.waitUntil(cache.addAll(files));
 });
 
 self.addEventListener('fetch', async ({ request }) => {
-  const cache = await caches.open('metarhia');
+  const cache = await caches.open('xxii');
   const cached = await cache.match(request);
   if (cached) return cached;
   const response = await fetch(request);

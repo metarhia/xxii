@@ -1,13 +1,13 @@
 {
-  "name": "Metarhia",
-  "short_name": "Metarhia",
+  "name": "XXII News",
+  "short_name": "XXII",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "theme_color": "#009933",
   "background_color": "#552277",
-  "description": "Metarhia community and technology stack",
-  "categories": ["node.js", "javascript", "technology stack", "community"],
+  "description": "XXII Personalized and brief News",
+  "categories": ["news", "cloud"],
   "icons": [
     {
       "src": "favicon.png",
@@ -15,7 +15,7 @@
       "sizes": "128x128"
     },
     {
-      "src": "metarhia.png",
+      "src": "xxii.png",
       "type": "image/png",
       "sizes": "256x256"
     }
