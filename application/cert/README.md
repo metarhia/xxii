@@ -7,9 +7,8 @@
   manually-administrated websites to enable HTTPS): https://certbot.eff.org/
 
 ```
-curl -O https://dl.eff.org/certbot-auto
-chmod a+x certbot-auto
-./certbot-auto certonly
+dnf -y install certbot
+sudo certbot certonly --standalone
 ```
 
 ## Self-signed (for testing)
