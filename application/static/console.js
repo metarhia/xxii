@@ -459,7 +459,7 @@ window.addEventListener('load', async () => {
   window.application = new Application();
   window.api = window.application.metacom.api;
   await application.metacom.load('auth', 'console', 'example');
-  const token = localStorage.getItem('metarhia.session.token');
+  const token = localStorage.getItem('xxii.session.ads');
   let logged = false;
   if (token) {
     const res = await api.auth.restore({ token });
@@ -468,7 +468,7 @@ window.addEventListener('load', async () => {
   if (!logged) {
     const res = await api.auth.signin({ login: 'marcus', password: 'marcus' });
     if (res.token) {
-      localStorage.setItem('metarhia.session.token', res.token);
+      localStorage.setItem('xxii.session.ads', res.token);
     }
   }
   const { text } = await api.console.content({ name: 'home' });
