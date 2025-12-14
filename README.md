@@ -5,6 +5,7 @@
 - Article Publishing
 
 Tech stack:
+- Languages: JavaScript, TypeScript, some critical code may be in C, C++, Rust, etc.
 - Local-first architecture with [globalstorage](https://github.com/metarhia/Docs/blob/main/content/en/GLOBALSTORAGE.md) database with sync engine
 - Client: PWA + (React & Vue.js & no framework)
 - Storage: CRDT, CAS, OPFS, Blockchain
@@ -19,8 +20,7 @@ Tech stack:
 * Feeds: public feeds (channels) and channel timelines
 * Discovery: full-text search across chats, feeds, posts, files metadata
 * Engagement: reactions, voting/polls, forwarding, pinned posts
-* In future: voice and video messages, online calls with video and audio, p2p exchange
-
+* See [Future features](#future-features) section for planned enhancements: voice/video calls, AI integration, bots, and more
 UI solution: terminal-like text interface with modern controls.
 
 ## Core entities and relationships
@@ -352,3 +352,75 @@ Filters line (terminal-like):
   * publish depends on publisherPolicy
 - File:
   * access determined by `visibility` + container membership + ownership
+
+## Future features
+
+- Advanced messaging
+  * Message templates
+  * Message threads
+  * Rich text formatting (Markdown)
+  * Code blocks with syntax highlighting
+  * End-to-end encryption for sensitive conversations
+  * Auto-delete messages after set time
+  * Translate messages to preferred language
+  * Scheduled messages: schedule messages to be sent at specific times
+  * Auto-responses: set up automated responses based on keywords or patterns
+- Voice and video communication
+  * Voice messages: record and send audio messages in chats and feeds
+  * Voice calls: one-on-one and group calls with WebRTC
+  * Screen sharing support
+  * Call recording (optional, with consent)
+- Chat bots and automation
+  * Bot framework: create and deploy chat bots in chats
+  * Bot commands: custom commands and slash commands
+  * Webhooks: receive and send messages via HTTP webhooks
+  * Automation scripts: JavaScript custom workflows
+- AI integration
+  * Conversational AI assistant via chat bots
+  * AI-powered search
+  * Smart suggestions: AI-suggested replies, mentions, and content
+  * AI help with writing messages, posts, and summaries
+  * Real-time translation of messages and posts
+  * Summarization
+  * AI-assisted content moderation
+  * AI-powered smart notifications based on chat activity
+- Enhanced collaboration
+  * Collaborative real-time editing of posts and documents
+  * Shared documents: embed and collaborate on documents within chats/feeds
+  * Shared whiteboards
+  * Co-browsing websites together in real-time
+  * Create and assign tasks within chats and feeds
+  * Polls and voting: enhanced polling system with real-time results
+  * Calendar integration: schedule events and meetings from chats
+- Social features
+  * Status updates: images, location
+  * Mentions and notifications
+  * Follow authors for their public content
+  * Personalized activity feed across followed authors
+- Search and discovery
+  * Save frequently used search queries
+  * Track and revisit previous searches
+  * AI-powered search query suggestions
+  * Discover related messages, posts, and authors
+  * Discover trending topics and conversations
+  * Personalized content recommendations
+- Developer features
+  * API for external integration
+  * Outbound webhooks for events
+  * SDK: client libraries
+  * Plugin system
+  * Vvisual workflow builder for automation
+  * Usage analytics and insights API
+  * Configurable rate limits and quotas
+  * Sandbox environment
+- Integration ecosystem
+  * Email integration
+  * Calendar sync
+  * Gaming integration
+- Analytics and insights
+  * Detailed analytics dashboard
+  * Track engagement across messages, posts, and authors
+  * Visualize social network and connections
+  * Monitor system performance and health
+  * Analyze content performance and reach
+  * Generate and export analytics reports
