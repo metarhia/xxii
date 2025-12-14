@@ -193,7 +193,7 @@ Schema:
   published: '?datetime',
   deleted: '?datetime',
   status: { enum: ['draft', 'published', 'archived'], default: 'draft' },
-  reactions: { object: { string: { arrey: 'Author' } }, comment: 'emoji' },
+  reactions: { object: { string: { array: 'Author' } }, comment: 'emoji' },
   pinned: { type: 'boolean', default: false },
   attachments: { many: 'File' },
 });
@@ -253,7 +253,7 @@ Schema:
   deleted: '?datetime',
   replyTo: '?Message',
   forwarded: '?Message',
-  reactions: { object: { string: { arrey: 'Author' } }, comment: 'emoji' },
+  reactions: { object: { string: { array: 'Author' } }, comment: 'emoji' },
   pinned: { type: 'boolean', default: false },
   attachments: { many: 'File' },
 });
