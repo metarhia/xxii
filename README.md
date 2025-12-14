@@ -25,7 +25,10 @@ UI solution: terminal-like text interface with modern controls.
 
 ## Core entities and relationships
 
-Domain Model in Metaschema
+Domain Model in Metaschema:
+- Version 0.0.0
+- Repo: https://github.com/metarhia/xxii-schema
+- npm: `npm i xxii-schema`
 
 ### Author
 
@@ -47,7 +50,7 @@ Schema:
   status: { enum: ['online', 'away', 'dnd', 'offline', 'unknown'], default: 'offline' },
   created: 'datetime',
   updated: 'datetime',
-  settings: 'object',
+  settings: 'json',
   nodes: { many: 'Node' },
 });
 ```
