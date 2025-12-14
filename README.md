@@ -48,6 +48,7 @@ Schema:
   created: 'datetime',
   updated: 'datetime',
   settings: 'object',
+  nodes: { many: 'Node' },
 });
 ```
 
@@ -80,9 +81,10 @@ Functional requirements:
 Schema:
 ```javascript
 ({
-  owner: 'Author',
   name: 'string',
+  owner: 'Author',
   lastSeen: 'datetime',
+  ip: 'ip',
 });
 ```
 
@@ -125,6 +127,7 @@ Schema:
 ({
   name: 'string',
   owner: 'Author',
+  folder: 'Folder',
   icon: '?string',
   description: '?string',
   mime: 'string',
@@ -160,7 +163,37 @@ Schema:
   joinPolicy: { enum: ['open', 'invite', 'request'], default: 'open' },
   pinned: { many: 'Message' },
 });
+```
 
+### Post
+
+Functional requirements:
+* Create draft post, publish, edit with revision history (recommended)
+* Post status: draft, published, archived
+* Reactions
+* Polls
+* Pin/unpin posts
+* Attach files to posts
+* Repost to other feeds or forward to chats (as link)
+* Post search: full-text search
+
+Schema:
+```javascript
+({
+  title: 'string',
+  subtitle: '?string',
+  content: 'string',
+  feed: 'Feed',
+  author: 'Author',
+  created: 'datetime',
+  edited: '?datetime',
+  published: '?datetime',
+  deleted: '?datetime',
+  status: { enum: ['draft', 'published', 'archived'], default: 'draft' },
+  reactions: { object: { string: { arrey: 'Author' } }, comment: 'emoji' },
+  pinned: { type: 'boolean', default: false },
+  attachments: { many: 'File' },
+});
 ```
 
 ### Chat
@@ -217,37 +250,6 @@ Schema:
   deleted: '?datetime',
   replyTo: '?Message',
   forwarded: '?Message',
-  reactions: { object: { string: { arrey: 'Author' } }, comment: 'emoji' },
-  pinned: { type: 'boolean', default: false },
-  attachments: { many: 'File' },
-});
-```
-
-### Post
-
-Functional requirements:
-* Create draft post, publish, edit with revision history (recommended)
-* Post status: draft, published, archived
-* Reactions
-* Polls
-* Pin/unpin posts
-* Attach files to posts
-* Repost to other feeds or forward to chats (as link)
-* Post search: full-text search
-
-Schema:
-```javascript
-({
-  feed: 'Feed',
-  author: 'Author',
-  title: 'string',
-  subtitle: '?string',
-  content: 'string',
-  created: 'datetime',
-  edited: '?datetime',
-  published: '?datetime',
-  deleted: '?datetime',
-  status: { enum: ['draft', 'published', 'archived'], default: 'draft' },
   reactions: { object: { string: { arrey: 'Author' } }, comment: 'emoji' },
   pinned: { type: 'boolean', default: false },
   attachments: { many: 'File' },
