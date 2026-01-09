@@ -12,6 +12,15 @@ Tech stack:
 - Network: WebSocket, WebRTC, HTTPS
 - Server: metarhia & fastify
 
+## Repositories
+
+| Tech Stack | Tasks |  Clients | Servers |
+| ---------- | ----- | -------- | ------- |
+| [Globalstorage](https://github.com/metarhia/Docs/blob/main/content/en/GLOBALSTORAGE.md) | [App Tasks](https://github.com/metarhia/xxii/issues) | [XXII DOM Client](https://github.com/metarhia/xxii.chat) | [XXII Impress Server](https://github.com/metarhia/xxii.chat) |
+| [Metarhia](https://github.com/metarhia/Docs) | [System Tasks](https://github.com/search?q=label%3Apatterns-2025&type=issues&state=open) | [XXII React Client](https://github.com/metatech-university/xxii-react) | [XXII Fastify Server](https://github.com/metatech-university/xxii-fastify) | |
+| [Metacom](https://github.com/metarhia/metacom) | | [XXII Angular Client](https://github.com/metatech-university/xxii-angular) | [XXII NextJS Server](https://github.com/metatech-university/xxii-nestjs) | |
+| [Metaschema](https://github.com/metarhia/metaschema) | | [XXII Web Components Client](https://github.com/metatech-university/xxii-web-components) | |
+
 ## Product scope
 
 * Messaging: public channels, private chats (1:1)
