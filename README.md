@@ -16,9 +16,9 @@ Tech stack:
 
 | Tech Stack | Tasks |  Clients | Servers | Domain |
 | ---------- | ----- | -------- | ------- | ------ |
-| [Globalstorage](https://github.com/metarhia/Docs/blob/main/content/en/GLOBALSTORAGE.md) | [Client](https://github.com/search?q=label%3Axxii-chat&type=issues&state=open) | [Pure DOM](https://github.com/metarhia/xxii.chat) | [Impress Server](https://github.com/metarhia/xxii.chat) | [Chat](https://github.com/metatech-university/xxii-domain) |
-| [Metarhia](https://github.com/metarhia/Docs) | [System](https://github.com/search?q=label%3Apatterns-2025&type=issues&state=open) | [React](https://github.com/metatech-university/xxii-react) | [Fastify Server](https://github.com/metatech-university/xxii-fastify) | [Bot](https://github.com/metatech-university/xxii-domain) |
-| [Metacom](https://github.com/metarhia/metacom) | [Domain](https://github.com/search?q=label%3Axxii-domain&type=issues&state=open) | [Angular](https://github.com/metatech-university/xxii-angular) | [NestJS Server](https://github.com/metatech-university/xxii-nestjs) | |
+| [Globalstorage](https://github.com/metarhia/Docs/blob/main/content/en/GLOBALSTORAGE.md) | [Client](https://github.com/search?q=label%3Axxii-chat&type=issues&state=open) | [Pure DOM](https://github.com/metarhia/xxii.chat) | [Impress](https://github.com/metarhia/xxii.chat) | [Chat](https://github.com/metatech-university/xxii-domain) |
+| [Metarhia](https://github.com/metarhia/Docs) | [System](https://github.com/search?q=label%3Apatterns-2025&type=issues&state=open) | [React](https://github.com/metatech-university/xxii-react) | [Fastify](https://github.com/metatech-university/xxii-fastify) | [Bot](https://github.com/metatech-university/xxii-domain) |
+| [Metacom](https://github.com/metarhia/metacom) | [Domain](https://github.com/search?q=label%3Axxii-domain&type=issues&state=open) | [Angular](https://github.com/metatech-university/xxii-angular) | [NestJS](https://github.com/metatech-university/xxii-nestjs) | |
 | [Metaschema](https://github.com/metarhia/metaschema) | [Server](https://github.com/search?q=label%3Axxii-server&type=issues&state=open) | [Web Components](https://github.com/metatech-university/xxii-web-components) | |
 
 ## Product scope
