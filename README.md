@@ -21,6 +21,13 @@ Tech stack:
 | [Metacom](https://github.com/metarhia/metacom) | [Domain](https://github.com/search?q=label%3Axxii-domain&type=issues&state=open) | [Angular](https://github.com/metatech-university/xxii-angular) | [NestJS](https://github.com/metatech-university/xxii-nestjs) | |
 | [Metaschema](https://github.com/metarhia/metaschema) | [Server](https://github.com/search?q=label%3Axxii-server&type=issues&state=open) | [Web Components](https://github.com/metatech-university/xxii-web-components) | |
 
+## Code examples and snippets
+
+- Domain logic
+  - [Domain code](https://github.com/metarhia/globalstorage/tree/master/examples)
+  - [Globalstorage API usage](https://github.com/metarhia/globalstorage/blob/master/example.js)
+  - [Globalstorage browser emulation](https://github.com/metarhia/globalstorage/tree/master/emulation)
+
 ## Product scope
 
 * Messaging: public channels, private chats (1:1)
