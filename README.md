@@ -10,16 +10,16 @@ Tech stack:
 - Client: PWA + (React & Vue.js & no framework)
 - Storage: CRDT, CAS, OPFS, Blockchain
 - Network: WebSocket, WebRTC, HTTPS
-- Server: metarhia & fastify
+- Server: [Metarhia](https://youtu.be/PHyl4b8Fj5A), [See Docs](https://github.com/metarhia/Docs) & [fastify](https://fastify.dev/)
 
 ## Repositories
 
-| Specs | Tech Stack | Tasks |  Clients | Servers | Domain |
-| ----- | ---------- | ----- | -------- | ------- | ------ |
-| [Globalstorage](https://github.com/metarhia/Docs/blob/main/content/en/GLOBALSTORAGE.md) | [Globalstorage](https://github.com/metarhia/globalstorage) | [Client](https://github.com/search?q=label%3Axxii-chat&type=issues&state=open) | [Pure DOM](https://github.com/metarhia/xxii.chat) | [Impress](https://github.com/metarhia/xxii.chat) | [Chat](https://github.com/metatech-university/xxii-domain) |
-| [Metarhia](https://youtu.be/PHyl4b8Fj5A) | [Bundler](https://github.com/metarhia/metarhia-build) | [System](https://github.com/search?q=label%3Apatterns-2025&type=issues&state=open) | [React](https://github.com/metatech-university/xxii-react) | [Fastify](https://github.com/metatech-university/xxii-fastify) | [Bot](https://github.com/metatech-university/xxii-domain) |
-| [Docs](https://github.com/metarhia/Docs) | [Metacom](https://github.com/metarhia/metacom) | [Domain](https://github.com/search?q=label%3Axxii-domain&type=issues&state=open) | [Angular](https://github.com/metatech-university/xxii-angular) | [NestJS](https://github.com/metatech-university/xxii-nestjs) | |
-| | [Metaschema](https://github.com/metarhia/metaschema) | [Server](https://github.com/search?q=label%3Axxii-server&type=issues&state=open) | [Web Components](https://github.com/metatech-university/xxii-web-components) | |
+| Tech Stack | Tasks |  Clients | Servers | Domain |
+| ---------- | ----- | -------- | ------- | ------ |
+| [Globalstorage](https://github.com/metarhia/globalstorage), [Docs](https://github.com/metarhia/Docs/blob/main/content/en/GLOBALSTORAGE.md) | [Client](https://github.com/search?q=label%3Axxii-chat&type=issues&state=open) | [Pure DOM](https://github.com/metarhia/xxii.chat) | [Impress](https://github.com/metarhia/xxii.chat) | [Chat](https://github.com/metatech-university/xxii-domain) |
+| [Bundler](https://github.com/metarhia/metarhia-build) | [System](https://github.com/search?q=label%3Apatterns-2025&type=issues&state=open) | [React](https://github.com/metatech-university/xxii-react) | [Fastify](https://github.com/metatech-university/xxii-fastify) | [Bot](https://github.com/metatech-university/xxii-domain) |
+| [Metacom](https://github.com/metarhia/metacom) | [Domain](https://github.com/search?q=label%3Axxii-domain&type=issues&state=open) | [Angular](https://github.com/metatech-university/xxii-angular) | [NestJS](https://github.com/metatech-university/xxii-nestjs) | |
+| [Metaschema](https://github.com/metarhia/metaschema) | [Server](https://github.com/search?q=label%3Axxii-server&type=issues&state=open) | [Web Components](https://github.com/metatech-university/xxii-web-components) | |
 
 ## Product scope
 
