@@ -16,10 +16,12 @@ Tech stack:
 
 | Tech Stack | Tasks |  Clients | Servers | Domain |
 | ---------- | ----- | -------- | ------- | ------ |
-| [Globalstorage](https://github.com/metarhia/globalstorage), [Docs](https://github.com/metarhia/Docs/blob/main/content/en/GLOBALSTORAGE.md) | [Client](https://github.com/search?q=label%3Axxii-chat&type=issues&state=open) | [Pure DOM](https://github.com/metarhia/xxii.chat) | [Impress](https://github.com/metarhia/xxii.chat) | [Chat](https://github.com/metatech-university/xxii-domain) |
+| [Globalstorage](https://github.com/metarhia/globalstorage) | [Client](https://github.com/search?q=label%3Axxii-chat&type=issues&state=open) | [Pure DOM](https://github.com/metarhia/xxii.chat) | [Impress](https://github.com/metarhia/xxii.chat) | [Chat](https://github.com/metatech-university/xxii-domain) |
 | [Bundler](https://github.com/metarhia/metarhia-build) | [System](https://github.com/search?q=label%3Apatterns-2025&type=issues&state=open) | [React](https://github.com/metatech-university/xxii-react) | [Fastify](https://github.com/metatech-university/xxii-fastify) | [Bot](https://github.com/metatech-university/xxii-domain) |
 | [Metacom](https://github.com/metarhia/metacom) | [Domain](https://github.com/search?q=label%3Axxii-domain&type=issues&state=open) | [Angular](https://github.com/metatech-university/xxii-angular) | [NestJS](https://github.com/metatech-university/xxii-nestjs) | |
 | [Metaschema](https://github.com/metarhia/metaschema) | [Server](https://github.com/search?q=label%3Axxii-server&type=issues&state=open) | [Web Components](https://github.com/metatech-university/xxii-web-components) | |
+
+We use Github Discussions for Q&A: https://github.com/metarhia/xxii/discussions
 
 ## Code examples and snippets
 
@@ -27,6 +29,8 @@ Tech stack:
   - [Domain code](https://github.com/metarhia/globalstorage/tree/master/examples)
   - [Globalstorage API usage](https://github.com/metarhia/globalstorage/blob/master/example.js)
   - [Globalstorage browser emulation](https://github.com/metarhia/globalstorage/tree/master/emulation)
+- Frontend app template
+  - Here is example to serve static: https://github.com/metatech-university/LocalFirstExample
 
 ## Product scope
 
