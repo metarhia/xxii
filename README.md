@@ -32,6 +32,21 @@ We use Github Discussions for Q&A: https://github.com/metarhia/xxii/discussions
 - Frontend app template
   - Here is example to serve static: https://github.com/metatech-university/LocalFirstExample
 
+## Architecture
+
+We've now built version ③ and are moving towards version ④. Right now, everything is in a single [repository](https://github.com/metarhia/xxii.chat), and the solution will need to be split into libraries and published in parts to npm. Meanwhile, we'll write the UI and business logic.
+
+<img src="https://github.com/user-attachments/assets/368684b6-1395-4617-92c3-8a77db483722" width="600" />
+
+① Pure Web API (no dependencies) + Pure Node.js (dependencies: ws)  
+② Pure Web API + Node.js + Servie Worker  
+③ Web API + Metarhia techstack (Metacom, Globalstorage, impress)  
+④ Web API + Metarhia + Business logic runner + Globalstorage Sync Engine  
+⑤ XXII Chat features (feed, chat, files) + UI frameworks + Metarhia + Sync  
+⑥ XXII Chat + UI frameworks + Metarhia + Sync + Peer-to-Peer with Web RTC  
+⑦ XXII Chat + Features: Bots, Full text search, Smart Contracts, Video calls  
+⑧ XXII Chat + Market for Distributed Application  
+
 ## Product scope
 
 * Messaging: public channels, private chats (1:1)
