@@ -29,6 +29,7 @@ We use Github Discussions for Q&A: https://github.com/metarhia/xxii/discussions
   - [Domain code](https://github.com/metarhia/globalstorage/tree/master/examples)
   - [Globalstorage API usage](https://github.com/metarhia/globalstorage/blob/master/example.js)
   - [Globalstorage browser emulation](https://github.com/metarhia/globalstorage/tree/master/emulation)
+- Schemas: https://github.com/metarhia/xxii-schema
 - Frontend app template
   - Here is example to serve static: https://github.com/metatech-university/LocalFirstExample
 
