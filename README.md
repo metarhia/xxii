@@ -19,7 +19,7 @@ Tech stack:
 | [Globalstorage](https://github.com/metarhia/globalstorage) | [Client](https://github.com/search?q=label%3Axxii-chat&type=issues&state=open) | [Pure DOM](https://github.com/metarhia/xxii.chat) | [Impress](https://github.com/metarhia/xxii.chat) | [Chat](https://github.com/metatech-university/xxii-domain) |
 | [Bundler](https://github.com/metarhia/metarhia-build) | [System](https://github.com/search?q=label%3Apatterns-2025&type=issues&state=open) | [React](https://github.com/metatech-university/xxii-react) | [Fastify](https://github.com/metatech-university/xxii-fastify) | [Bot](https://github.com/metatech-university/xxii-domain) |
 | [Metacom](https://github.com/metarhia/metacom) | [Domain](https://github.com/search?q=label%3Axxii-domain&type=issues&state=open) | [Angular](https://github.com/metatech-university/xxii-angular) | [NestJS](https://github.com/metatech-university/xxii-nestjs) | |
-| [Metaschema](https://github.com/metarhia/metaschema) | [Server](https://github.com/search?q=label%3Axxii-server&type=issues&state=open) | [Web Components](https://github.com/metatech-university/xxii-web-components) | |
+| [Metaschema](https://github.com/metarhia/metaschema) | [Server](https://github.com/search?q=label%3Axxii-server&type=issues&state=open) | [Web Components](https://github.com/metatech-university/xxii-web-components) | [Pure Node.js](https://github.com/metarhia/metacom-nodejs-example) | |
 
 We use Github Discussions for Q&A: https://github.com/metarhia/xxii/discussions
 
